@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_UI_UIImage_Study" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tmq-Pk-jLB">
+                                <rect key="frame" x="42.5" y="60" width="290" height="65"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="大象" translatesAutoresizingMaskIntoConstraints="NO" id="YOT-cM-fFe">
+                                        <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="65" id="8wo-at-0bE"/>
+                                            <constraint firstAttribute="height" constant="65" id="8xP-Ip-L4y"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="奶牛" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-46-8ia">
+                                        <rect key="frame" x="75" y="0.0" width="65" height="65"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小鸡" translatesAutoresizingMaskIntoConstraints="NO" id="Wtr-cP-9gf">
+                                        <rect key="frame" x="150" y="0.0" width="65" height="65"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="斑马" translatesAutoresizingMaskIntoConstraints="NO" id="Ur4-MO-KQl">
+                                        <rect key="frame" x="225" y="0.0" width="65" height="65"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Wtr-cP-9gf" firstAttribute="width" secondItem="YOT-cM-fFe" secondAttribute="width" id="3oy-4A-S9y"/>
+                                    <constraint firstItem="Wtr-cP-9gf" firstAttribute="height" secondItem="YOT-cM-fFe" secondAttribute="height" id="D4r-Th-ZG0"/>
+                                    <constraint firstItem="Ur4-MO-KQl" firstAttribute="height" secondItem="YOT-cM-fFe" secondAttribute="height" id="HUz-TM-7uN"/>
+                                    <constraint firstItem="dnS-46-8ia" firstAttribute="height" secondItem="YOT-cM-fFe" secondAttribute="height" id="HY0-GB-kxb"/>
+                                    <constraint firstItem="dnS-46-8ia" firstAttribute="width" secondItem="YOT-cM-fFe" secondAttribute="width" id="bF8-MF-opp"/>
+                                    <constraint firstItem="Ur4-MO-KQl" firstAttribute="width" secondItem="YOT-cM-fFe" secondAttribute="width" id="jzi-Zu-XBE"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0z7-BH-ez7">
+                                <rect key="frame" x="102.5" y="145" width="170" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wlc-9y-8JR">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="8IY-f7-NkW"/>
+                                            <constraint firstAttribute="height" constant="50" id="iSa-Gw-VXb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="THZ-xh-68j">
+                                        <rect key="frame" x="60" y="0.0" width="50" height="50"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aUH-UR-tOy">
+                                        <rect key="frame" x="120" y="0.0" width="50" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="THZ-xh-68j" firstAttribute="height" secondItem="Wlc-9y-8JR" secondAttribute="height" id="dya-R5-gjh"/>
+                                    <constraint firstItem="THZ-xh-68j" firstAttribute="width" secondItem="Wlc-9y-8JR" secondAttribute="width" id="rDb-uX-J8S"/>
+                                    <constraint firstItem="aUH-UR-tOy" firstAttribute="width" secondItem="Wlc-9y-8JR" secondAttribute="width" id="sZN-8L-yzE"/>
+                                    <constraint firstItem="aUH-UR-tOy" firstAttribute="height" secondItem="Wlc-9y-8JR" secondAttribute="height" id="wsa-iQ-1oc"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VUr-mD-5b4">
+                                <rect key="frame" x="72" y="210" width="230" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Beg-uZ-W11"/>
+                                    <constraint firstAttribute="width" constant="230" id="nzw-9Y-vJm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0z7-BH-ez7" firstAttribute="top" secondItem="tmq-Pk-jLB" secondAttribute="bottom" constant="20" id="7lU-Ok-0Bv"/>
+                            <constraint firstItem="VUr-mD-5b4" firstAttribute="top" secondItem="0z7-BH-ez7" secondAttribute="bottom" constant="15" id="HFs-Ul-FV3"/>
+                            <constraint firstItem="tmq-Pk-jLB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qko-rf-8BO"/>
+                            <constraint firstItem="tmq-Pk-jLB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="mcP-Qm-WZm"/>
+                            <constraint firstItem="VUr-mD-5b4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="stQ-yR-YlL"/>
+                            <constraint firstItem="0z7-BH-ez7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uNw-3s-hWB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="Wlc-9y-8JR" id="zZ6-db-3Dr"/>
+                        <outlet property="imageView2" destination="THZ-xh-68j" id="Zkz-Ix-gxw"/>
+                        <outlet property="imageView3" destination="aUH-UR-tOy" id="my9-Vy-brG"/>
+                        <outlet property="imageView4" destination="VUr-mD-5b4" id="9W0-cb-fTW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="大象" width="200" height="200"/>
+        <image name="奶牛" width="200" height="200"/>
+        <image name="小鸡" width="200" height="200"/>
+        <image name="斑马" width="200" height="200"/>
+    </resources>
+</document>
